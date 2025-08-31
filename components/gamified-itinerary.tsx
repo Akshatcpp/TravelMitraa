@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
-import { Header } from "@/components/header"
 import {
   ArrowLeft,
   Check,
@@ -27,7 +26,38 @@ import {
   Navigation,
   Phone,
   AlertTriangle,
+  X,
+  Images,
+  Bell,
+  Loader2,
+  AlertCircle,
+  BookText, // --- 1. IMPORTED NEW ICON FOR JOURNAL ---
 } from "lucide-react"
+
+// --- 2. ADDED JournalModal TO IMPORTS (ASSUMING IT EXISTS) ---
+import { ImageGalleryModal, ReviewsModal, JournalModal } from "./ImageModalGallery"
+
+const Header = ({ showSOS }: { showSOS?: boolean }) => {
+  return (
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container flex h-14 items-center justify-between">
+        <div className="flex items-center space-x-2">
+          <Mountain className="h-6 w-6" />
+          <span className="font-bold">Bhu-Local</span>
+        </div>
+        <div className="flex items-center space-x-4">
+          {showSOS && (
+            <Button variant="destructive" size="sm" className="flex items-center space-x-2">
+              <AlertTriangle className="h-4 w-4" />
+              <span>SOS</span>
+            </Button>
+          )}
+          <Bell className="h-5 w-5 text-muted-foreground" />
+        </div>
+      </div>
+    </header>
+  )
+}
 
 interface GamifiedItineraryProps {
   data: any
@@ -52,7 +82,13 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
   const [badges, setBadges] = useState(["explorer", "foodie"])
   const [expandedCheckpoint, setExpandedCheckpoint] = useState<string | null>("3")
 
+  const [isGalleryOpen, setIsGalleryOpen] = useState(false)
+  const [isReviewsOpen, setIsReviewsOpen] = useState(false)
+  const [isJournalOpen, setIsJournalOpen] = useState(false) // --- 3. ADDED STATE FOR JOURNAL MODAL ---
+  const [selectedCheckpointTitle, setSelectedCheckpointTitle] = useState("")
+
   const checkpoints: Checkpoint[] = [
+    // Your checkpoints data remains the same...
     {
       id: "1",
       title: "Rajwada Palace",
@@ -150,6 +186,24 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
     }
   }
 
+  const handleShowPhotos = () => {
+    setIsGalleryOpen(true)
+  }
+
+  const handleShowReviews = (checkpoint: Checkpoint) => {
+    setSelectedCheckpointTitle(checkpoint.title)
+    setIsReviewsOpen(true)
+  }
+
+  // --- 4. ADDED HANDLER FOR JOURNAL MODAL ---
+  const handleOpenJournal = () => {
+    setIsJournalOpen(true);
+  };
+
+  const handleTakePhotoClick = () => {
+    console.log("Take Photo clicked for the current checkpoint")
+  }
+
   const getInteractionCards = (checkpoint: Checkpoint) => {
     const baseCards = [
       {
@@ -199,14 +253,12 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
         "Historical significance placard",
       ]
     }
-
     return baseCards
   }
 
   return (
     <div className="min-h-screen bg-background">
       <Header showSOS={true} />
-
       <div className="sticky top-16 z-40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
         <div className="container px-4 py-4">
           <div className="flex items-center justify-between mb-3">
@@ -214,13 +266,17 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
               <ArrowLeft className="h-4 w-4" />
               <span>Back to Dashboard</span>
             </Button>
-
             <div className="flex items-center space-x-4">
+              {/* --- 5. ADDED THE JOURNAL BUTTON HERE --- */}
+             <Button variant="ghost" size="sm" onClick={handleOpenJournal}>
+  <BookText className="h-4 w-4 mr-2" />
+  Journal
+</Button>
+
               <div className="flex items-center space-x-1 bg-primary/10 px-3 py-1 rounded-full">
                 <Coins className="h-4 w-4 text-primary" />
                 <span className="text-sm font-semibold text-primary">{totalPoints}</span>
               </div>
-
               <div className="flex items-center space-x-1">
                 {badges.map((badge) => {
                   const BadgeIcon = badgeIcons[badge as keyof typeof badgeIcons]
@@ -233,7 +289,6 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
               </div>
             </div>
           </div>
-
           <div className="space-y-2">
             <div className="flex items-center justify-between text-sm">
               <span className="font-semibold">Indore Explorer</span>
@@ -255,22 +310,20 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
               <div className="absolute top-1/2 right-1/4 w-3 h-3 bg-secondary/30 rounded-full" />
               <div className="absolute bottom-1/3 left-1/4 w-5 h-5 bg-primary/20 rounded-full" />
             </div>
-
             <div className="relative space-y-8 py-8">
               {checkpoints.map((checkpoint, index) => (
                 <div key={checkpoint.id} className="relative">
                   {index < checkpoints.length - 1 && (
                     <div className="absolute left-6 top-12 w-0.5 h-16 bg-gradient-to-b from-border to-transparent" />
                   )}
-
                   <div className="flex items-start space-x-4">
                     <div
                       className={`relative flex-shrink-0 w-12 h-12 rounded-full border-2 flex items-center justify-center cursor-pointer transition-all duration-300 ${
                         checkpoint.status === "completed"
                           ? "checkpoint-completed border-secondary bg-secondary text-white"
                           : checkpoint.status === "active"
-                            ? "checkpoint-active border-primary bg-primary text-white"
-                            : "checkpoint-upcoming border-muted-foreground/30 bg-muted text-muted-foreground"
+                          ? "checkpoint-active border-primary bg-primary text-white"
+                          : "checkpoint-upcoming border-muted-foreground/30 bg-muted text-muted-foreground"
                       }`}
                       onClick={() => handleCheckpointClick(checkpoint)}
                     >
@@ -279,7 +332,6 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
                       ) : (
                         <checkpoint.icon className="h-6 w-6" />
                       )}
-
                       {checkpoint.status === "active" && (
                         <div className="absolute inset-0 rounded-full border-2 border-primary animate-ping opacity-75" />
                       )}
@@ -295,7 +347,6 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
                           <div className="flex-1">
                             <h3 className="font-semibold text-lg mb-1">{checkpoint.title}</h3>
                             <p className="text-sm text-muted-foreground mb-2">{checkpoint.description}</p>
-
                             <div className="flex items-center space-x-4 text-xs text-muted-foreground">
                               <div className="flex items-center space-x-1">
                                 <MapPin className="h-3 w-3" />
@@ -308,13 +359,22 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
                             </div>
                           </div>
 
-                          <div className="flex flex-col items-end space-y-2">
+                          <div className="flex flex-col items-end space-y-1">
                             <Badge
                               variant={checkpoint.status === "completed" ? "default" : "secondary"}
                               className="text-xs"
                             >
                               +{checkpoint.points} pts
                             </Badge>
+
+                            <Button
+                              variant="ghost"
+                              size="icon"
+                              className="h-8 w-8 rounded-full"
+                              onClick={() => handleShowReviews(checkpoint)}
+                            >
+                              <Star className="h-4 w-4 text-muted-foreground hover:text-primary transition-colors" />
+                            </Button>
 
                             {checkpoint.status === "active" && (
                               <Badge variant="outline" className="text-xs border-primary text-primary">
@@ -323,11 +383,10 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
                             )}
                           </div>
                         </div>
-
                         {checkpoint.status === "active" && (
                           <div className="mt-4 pt-4 border-t">
                             <div className="flex items-center justify-between mb-3">
-                              <div className="text-sm text-muted-foreground">Ready to explore? Choose an action:</div>
+                              <div className="text-sm text-muted-foreground">Ready to explore?</div>
                               <Button
                                 variant="ghost"
                                 size="sm"
@@ -348,17 +407,21 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
                               </Button>
                             </div>
                             <div className="flex flex-wrap gap-2">
+                              <Button size="sm" onClick={handleTakePhotoClick}>
+                                <Camera className="h-3 w-3 mr-1" />
+                                Take Photo
+                              </Button>
+                              <Button size="sm" variant="secondary" onClick={handleShowPhotos}>
+                                <Images className="h-3 w-3 mr-1" />
+                                Show Photos
+                              </Button>
                               <Button size="sm" variant="outline" className="text-xs bg-transparent">
                                 <Navigation className="h-3 w-3 mr-1" />
                                 Get Directions
                               </Button>
-                              <Button size="sm" variant="outline" className="text-xs bg-transparent">
-                                <Camera className="h-3 w-3 mr-1" />
-                                Take Photo
-                              </Button>
-                              <Button size="sm" variant="outline" className="text-xs bg-transparent">
+                              <Button size="sm" variant="outline" onClick={() => handleShowReviews(checkpoint)} className="text-xs bg-transparent">
                                 <Users className="h-3 w-3 mr-1" />
-                                Find Guide
+                                Reviews
                               </Button>
                             </div>
                           </div>
@@ -366,7 +429,6 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
                       </CardContent>
                     </Card>
                   </div>
-
                   {checkpoint.status === "active" && expandedCheckpoint === checkpoint.id && (
                     <div className="ml-16 mt-4 space-y-4 animate-in fade-in-0 slide-in-from-top-4 duration-500">
                       <div className="grid gap-4">
@@ -387,7 +449,6 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
                                     {card.title}
                                   </h4>
                                   <p className="text-sm text-muted-foreground mb-3">{card.description}</p>
-
                                   <div className="space-y-2">
                                     {card.items.map((item, itemIndex) => (
                                       <div key={itemIndex} className="flex items-start space-x-2 text-sm">
@@ -396,7 +457,6 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
                                       </div>
                                     ))}
                                   </div>
-
                                   <div className="mt-3 pt-3 border-t border-muted/50">
                                     {card.id === "gems" && (
                                       <div className="flex gap-2">
@@ -473,6 +533,22 @@ export function GamifiedItinerary({ data, onBack }: GamifiedItineraryProps) {
           </div>
         </div>
       </div>
+
+      <ImageGalleryModal
+        isOpen={isGalleryOpen}
+        onClose={() => setIsGalleryOpen(false)}
+      />
+
+      <ReviewsModal
+        isOpen={isReviewsOpen}
+        onClose={() => setIsReviewsOpen(false)}
+      />
+
+      {/* --- 6. ADDED THE JOURNAL MODAL COMPONENT --- */}
+      <JournalModal
+        isOpen={isJournalOpen}
+        onClose={() => setIsJournalOpen(false)}
+      />
     </div>
   )
 }

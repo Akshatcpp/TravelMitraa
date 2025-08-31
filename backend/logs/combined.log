@@ -1,0 +1,178 @@
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:53:12"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:53:12"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:53:12"}
+{"level":"info","message":"📚 API Documentation: http://localhost:5000/api-docs","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:53:12"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/health","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:53:12"}
+{"level":"info","message":"🌐 Environment: development","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:53:12"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:55:37"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:56:15"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:56:15"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:56:15"}
+{"level":"info","message":"📚 API Documentation: http://localhost:5000/api-docs","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:56:15"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/health","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:56:15"}
+{"level":"info","message":"🌐 Environment: development","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:56:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:58:12"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:08"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:08"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:47"}
+{"level":"warn","message":"Error fetching tourist_attraction places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:47"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:48"}
+{"level":"warn","message":"Error fetching restaurant places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:48"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:48"}
+{"level":"warn","message":"Error fetching shopping_mall places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:48"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:48"}
+{"level":"warn","message":"Error fetching park places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:48"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:48"}
+{"level":"warn","message":"Error fetching museum places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 03:59:48"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"warn","message":"Error fetching tourist_attraction places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"warn","message":"Error fetching restaurant places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"warn","message":"Error fetching shopping_mall places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"warn","message":"Error fetching park places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"error","message":"Nearby places error:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"warn","message":"Error fetching museum places:","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:06"}
+{"level":"info","message":"Process terminated","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:00:30"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:01:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:06:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:11:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:16:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:21:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:26:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:31:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:36:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 04:41:15"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:07:17"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:26:03"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:44:35"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:49:35"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:54:35"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:57:40"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:57:40"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:57:40"}
+{"level":"info","message":"📚 API Documentation: http://localhost:5000/api-docs","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:57:40"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/health","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:57:40"}
+{"level":"info","message":"🌐 Environment: development","service":"mappls-navigation-backend","timestamp":"2025-08-31 05:57:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:02:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:07:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:12:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:17:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:22:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:27:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:32:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:37:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:42:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:47:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:52:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 06:57:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 07:02:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 07:07:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 07:12:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 07:17:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 07:22:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 07:27:40"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 07:57:13"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 08:02:13"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 08:07:13"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 08:12:13"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 08:17:13"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 08:22:13"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 08:27:13"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:16:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:21:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:26:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:31:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:36:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:41:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:46:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:51:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 09:56:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:01:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:06:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:11:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:16:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:21:51"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:22:09"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:22:09"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:26:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:31:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:36:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:41:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:46:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:51:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 10:56:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:01:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:06:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:11:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:16:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:21:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:26:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:31:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:36:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:41:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:46:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:51:51"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:56:51"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:57:28"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:57:28"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:57:28"}
+{"level":"info","message":"📚 API Documentation: http://localhost:5000/api-docs","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:57:28"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/health","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:57:28"}
+{"level":"info","message":"🌐 Environment: development","service":"mappls-navigation-backend","timestamp":"2025-08-31 11:57:28"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 12:02:28"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 13:29:44"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"mappls-navigation-backend","timestamp":"2025-08-31 13:34:40"}
+{"level":"info","message":"Using static access token for Mappls API","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:14:44"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:14:44"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:14:44"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:14:44"}
+{"level":"info","message":"📚 API Documentation: http://localhost:5000/api-docs","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:14:44"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/health","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:14:44"}
+{"level":"info","message":"🌐 Environment: development","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:14:44"}
+{"level":"warn","message":"Token validation test failed:","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:14:44"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:18:09"}
+{"level":"info","message":"Using static access token for Mappls API","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:27:53"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:27:53"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:27:53"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:27:53"}
+{"level":"info","message":"📚 API Documentation: http://localhost:5000/api-docs","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:27:53"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/health","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:27:53"}
+{"level":"info","message":"🌐 Environment: development","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:27:53"}
+{"level":"warn","message":"Token validation test failed:","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:27:53"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:32:53"}
+{"level":"info","message":"Using static access token for Mappls API","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:37:19"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:37:19"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:37:53"}
+{"level":"info","message":"Using static access token for Mappls API","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:41:22"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:41:22"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:41:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:42:53"}
+{"level":"info","message":"Using static access token for Mappls API","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:43:34"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:43:34"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:43:34"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:43:34"}
+{"level":"info","message":"📚 API Documentation: http://localhost:5000/api-docs","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:43:34"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/health","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:43:34"}
+{"level":"info","message":"🌐 Environment: development","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:43:34"}
+{"level":"warn","message":"Token validation test failed:","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:43:34"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:48:34"}
+{"level":"info","message":"Using static access token for Mappls API","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:49:23"}
+{"level":"info","message":"Real-time service initialized","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:49:23"}
+{"level":"info","message":"MongoDB connected: localhost","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:49:23"}
+{"level":"info","message":"🚀 Server running on port 5000","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:49:23"}
+{"level":"info","message":"📚 API Documentation: http://localhost:5000/api-docs","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:49:23"}
+{"level":"info","message":"🏥 Health Check: http://localhost:5000/health","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:49:23"}
+{"level":"info","message":"🌐 Environment: development","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:49:23"}
+{"level":"warn","message":"Token validation test failed:","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:49:24"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:54:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 14:59:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 15:04:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 15:09:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 15:14:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 15:19:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 15:24:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 15:29:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 15:34:23"}
+{"level":"info","message":"Cleaned up old location data. Active users: 0","service":"mappls-navigation-backend","timestamp":"2025-08-31 15:39:23"}

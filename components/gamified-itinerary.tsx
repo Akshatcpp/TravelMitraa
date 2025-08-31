@@ -43,7 +43,7 @@ const Header = ({ showSOS }: { showSOS?: boolean }) => {
       <div className="container flex h-14 items-center justify-between">
         <div className="flex items-center space-x-2">
           <Mountain className="h-6 w-6" />
-          <span className="font-bold">Bhu-Local</span>
+          <span className="font-bold">Travel Mitra</span>
         </div>
         <div className="flex items-center space-x-4">
           {showSOS && (

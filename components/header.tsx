@@ -18,7 +18,7 @@ export function Header({ user, showSOS = true }: HeaderProps) {
           <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
             <span className="text-white font-bold text-sm">BL</span>
           </div>
-          <span className="font-bold text-xl gradient-text">Bhu-Local</span>
+          <span className="font-bold text-xl gradient-text">Travel Mitra</span>
         </div>
 
         {/* Right side */}

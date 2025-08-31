@@ -171,7 +171,7 @@ export function Dashboard({ user, onPlanTrip }: DashboardProps) {
               <h3 className="text-xl font-semibold mb-4">Ready for Your Next Adventure?</h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
                 Join thousands of travelers who have discovered hidden gems and authentic experiences across India with
-                Bhu-Local.
+                Travel Mitra.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 {[

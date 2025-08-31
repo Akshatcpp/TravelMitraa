@@ -112,7 +112,7 @@ export function LoginScreen({ onLogin }: LoginScreenProps) {
                 mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Bhu-Local
+              Travel Mitra
             </h1>
             <p
               className={`text-sm text-muted-foreground transition-all duration-1000 delay-700 ${

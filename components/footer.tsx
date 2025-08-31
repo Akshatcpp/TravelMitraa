@@ -8,7 +8,7 @@ export function Footer() {
               <div className="h-6 w-6 rounded bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
                 <span className="text-white font-bold text-xs">BL</span>
               </div>
-              <span className="font-bold gradient-text">Bhu-Local</span>
+              <span className="font-bold gradient-text">Travel Mitra</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Discover India like never before with AI-powered travel planning and local community insights.
@@ -59,7 +59,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 Bhu-Local. Made with ❤️ for incredible India.</p>
+          <p>&copy; 2024 Travel Mitra. Made with ❤️ for incredible India.</p>
         </div>
       </div>
     </footer>

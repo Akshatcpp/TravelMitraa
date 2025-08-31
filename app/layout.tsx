@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Bhu-Local - Discover India Like Never Before",
+  title: "Travel Mitra - Discover India Like Never Before",
   description:
     "Your AI-powered travel companion for authentic Indian experiences. Plan, explore, and connect with local communities.",
   generator: "v0.app",
